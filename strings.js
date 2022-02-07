@@ -77,7 +77,7 @@ console.log(`the index of the first "D" in "dumbledore" is ${firstD}`);
 console.log(wizard.indexOf("D"));
 
 const lastLetter = wizard[wizard.length - 1];
-console.log(`The index of the last 'e' in 'Dumbledore' is ${totalLength}.`);
+console.log(`The index of the last 'e' in 'Dumbledore' is ${lastLetter}.`);
 // why doesn't this match?
 console.log(wizard.lastIndexOf("e"));
 
@@ -87,3 +87,16 @@ console.log("_" + wizard.substring(15, (15 + 7)) + "_");
 console.log("_" + wizard.substring(14, (15 + 8)) + "_");
 console.log("_" + wizard.substring(25, 28) + "_");
 console.log("_" + wizard.substring(2, 5) + "_");
+
+
+
+const word;
+
+function capitalize(word) {
+    return word[0].toUpperCase() + word.substring(1).toLowerCase();
+}
+
+// Sample usage - do not modify
+console.log(capitalize("sam")); // "Sam"
+console.log(capitalize("ALEX")); // "Alex"
+console.log(capitalize("chARLie")); // "Charlie"
