@@ -68,3 +68,16 @@
 
 // 100 to 0 in steps of 10
 // for (let counter = 100; counter >= 0; counter -= 10) { console.log(counter); }
+
+// const Animal = {
+//     name: "",
+//     type: "unknown",
+//     desc: "",
+//     age: 0,
+// }
+
+// const animal = Object.create(Animal);
+
+// Animal.image = "image.img";
+
+// console.log(animal, animal.image);
