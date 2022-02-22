@@ -24,9 +24,13 @@ function compareName(a, b) {
 animals.sort(compareName);
 console.log(animals);
 
-let filteredArray = animals.filter(animal => {
-    if (animal.type === "cat") { return true } else { return false; }
-})
+let filteredArray = animals.filter((animal) => {
+    if (animal.type === "cat") {
+        return true;
+    } else {
+        return false;
+    }
+});
 
 console.log(filteredArray);
 
