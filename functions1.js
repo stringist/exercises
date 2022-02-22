@@ -33,10 +33,16 @@
 //     console.log(`hello ${firstName2}`)
 // }
 
-function presentPet(firstName, animaltype, animalName) {
-    console.log(
-        `My name is ${firstName}. I have an ${animaltype} called ${animalName}.`
-    );
-}
+// function presentPet(firstName, animaltype, animalName) {
+//     console.log(
+//         `My name is ${firstName}. I have an ${animaltype} called ${animalName}.`
+//     );
+// }
 
-presentPet();
+// presentPet();
+greeting("Billy");
+
+function greeting(firstName) {
+    let theGreeting = `hello ${firstName}`;
+    console.log(theGreeting);
+}
